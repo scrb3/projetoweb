@@ -1,0 +1,14 @@
+* {
+    background-color: antiquewhite;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    text-align: justify;
+}
+
+.foto {
+    border-radius: 50%;
+}
