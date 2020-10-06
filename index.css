@@ -1,14 +1,52 @@
-* {
+body {
     background-color: antiquewhite;
     font-family: 'Sansita Swashed', cursive;
+    margin: 0px;
 }
 
 p {
     font-family: 'Dancing Script', cursive;
     font-size: larger;
     text-align: justify;
+    text-indent: 50px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    border: white 1px solid;
+}
+a {
+    display: block;
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .foto {
     border-radius: 50%;
+    height: 50%;
+    width: 50%;
+}
+
+.left-bar {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    width: 25%;
+    padding: 25px;
+}
+
+.description {
+    text-indent: 0px;
+}
+
+.main {
+    margin: 40px;
 }
